@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="100dp" >
+
+    <Button
+        android:id="@+id/bt_install"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:background="@android:color/holo_blue_light"
+        android:text="远程安装客户端"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/bt_jump"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@+id/bt_install"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="@android:color/holo_blue_light"
+        android:singleLine="true"
+        android:text="已安装跳过此步"
+        android:textSize="20sp" />
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+eclipse.preferences.version=1
+encoding//src/reco/platform/remote/demo/MainActivity.java=UTF-8
+encoding//src/reco/platform/remote/demo/phone/ModelActivity.java=UTF-8
+encoding//src/reco/platform/remote/demo/phone/RemoteActivity.java=UTF-8
+encoding//src/reco/platform/remote/demo/phone/RemoteConnectActivity.java=UTF-8
+encoding//src/reco/platform/remote/demo/phone/RemoteHandleActivity.java=UTF-8
+encoding//src/reco/platform/remote/demo/phone/RemoteInstallActivity.java=UTF-8
+encoding//src/reco/platform/remote/demo/phone/RemotePushActivity.java=UTF-8
+encoding//src/reco/platform/remote/demo/phone/RemoteRequestActivity.java=UTF-8
+encoding//src/reco/platform/remote/demo/tv/TvActivity.java=UTF-8
+encoding/<project>=UTF-8

@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true" >
+
+    <EditText
+        android:id="@+id/et_ip"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="60dp"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/et_port"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/et_ip"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/et_ip"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/bt_ip"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/et_ip"
+        android:layout_below="@+id/et_ip"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/holo_blue_light"
+        android:singleLine="true"
+        android:text="指定IP与端口连接"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/bt_udp"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/et_ip"
+        android:layout_below="@+id/bt_ip"
+        android:layout_marginTop="30dp"
+        android:background="@android:color/holo_blue_light"
+        android:singleLine="true"
+        android:text="udp获取设备ip(已安装电视端)"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/bt_scan"
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/et_ip"
+        android:layout_below="@+id/bt_udp"
+        android:layout_marginTop="30dp"
+        android:background="@android:color/holo_blue_light"
+        android:singleLine="true"
+        android:text="开始扫描设备ip"
+        android:textSize="20sp" />
+
+    <ListView
+        android:id="@+id/lv_device_list"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/et_ip"
+        android:layout_below="@+id/bt_scan"
+        android:layout_marginTop="30dp"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="1dp"
+        android:listSelector="@android:color/transparent" >
+    </ListView>
+
+</RelativeLayout>

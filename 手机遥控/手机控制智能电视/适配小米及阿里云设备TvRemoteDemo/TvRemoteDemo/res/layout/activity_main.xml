@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/bt_tv"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:text="电视端"
+        android:textSize="21sp" />
+
+    <Button
+        android:id="@+id/bt_phone"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/bt_tv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="手机端"
+        android:textSize="21sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:text="智能电视及家居开发专区:414801661"
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="23sp" />
+
+</RelativeLayout>

@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="76dp" >
+
+    <RelativeLayout
+        android:id="@+id/rl_top"
+        android:layout_width="match_parent"
+        android:layout_height="70dp" >
+
+        <TextView
+            android:id="@+id/tv_power"
+            android:layout_width="110dp"
+            android:layout_height="70dp"
+            android:layout_marginRight="20dp"
+            android:layout_toLeftOf="@+id/tv_home"
+            android:background="@android:color/holo_blue_light"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="关闭电源"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/tv_home"
+            android:layout_width="110dp"
+            android:layout_height="70dp"
+            android:layout_centerHorizontal="true"
+            android:background="@android:color/holo_blue_light"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="主页键"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/tv_menu"
+            android:layout_width="110dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/tv_home"
+            android:background="@android:color/holo_blue_light"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="菜单键"
+            android:textColor="@android:color/white" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_dpad"
+        android:layout_width="match_parent"
+        android:layout_height="325dp"
+        android:layout_below="@+id/rl_top"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/holo_blue_light"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="左右上下滑动相当于方向键,任意点击相当于确定"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/tv_back"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/tv_dpad"
+        android:background="@android:color/holo_blue_light"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="返回键"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>
